@@ -1,0 +1,163 @@
+* { padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body {
+        display: block;
+        width:100%;
+        height: 100%;
+   }
+   
+   .navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    
+}
+
+.navbar img { 
+ width: 250px;
+ height: auto;
+ padding-left: 15px;
+ padding-top: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: poppins;;
+    color: white;
+    padding: 20px ;
+    font-size: 100%;
+    font-weight: 600;
+    transition: all 600ms ease;
+ 
+}
+
+.navbar ul li a:hover {
+    color: red ;
+    
+}
+
+
+.container {
+    width: 100%;
+    height: auto;
+    font-family: Charis SIL;
+
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 5px;
+    gap:14px;
+}
+
+.date p{
+    font-family: poppins;
+    font-weight: 100;
+    padding-left: 10px;
+    margin-left: 5px ;
+
+}
+
+.judul-artikel {
+    font-family: dm serif display;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.konten {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.5;
+    
+}
+
+.konten p {
+    font-family: Charis SIL;
+    font-size: 18px;
+    text-indent: 30px;
+}
+
+iframe{
+  margin-left: 300px;
+  margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+
+.container-footer {
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sosmed a{
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.sosmed a:hover {
+    background-color: white;
+    color: black
+}
+
+.copyright {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-family: poppins;
+
+}
+
+
+.copyright a {
+    text-decoration: none;
+    color: blue;
+}

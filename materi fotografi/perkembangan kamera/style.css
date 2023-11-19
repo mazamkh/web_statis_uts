@@ -1,0 +1,238 @@
+* { padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body {
+        display: block;
+        width:100%;
+        height: 100%;
+   }
+   
+   .navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    
+}
+
+.navbar img { 
+ width: 250px;
+ height: auto;
+ padding-left: 15px;
+ padding-top: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: poppins;;
+    color: white;
+    padding: 20px ;
+    font-size: 100%;
+    font-weight: 600;
+    transition: all 600ms ease;
+ 
+}
+
+.navbar ul li a:hover {
+    color: red ;
+    
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 5px;
+    gap:14px;
+}
+
+.date p{
+    font-family: poppins;
+    font-weight: 100;
+    padding-left: 10px;
+    margin-left: 5px ;
+
+}
+
+.judul-artikel {
+    font-family: dm serif display;
+    font-size: 50px;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.isi-konten .judul {
+    font-family: dm serif display;
+    font-size: 20px;
+    text-align:;
+    margin-top: 20px;
+}
+
+.konten-utama {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.isi-konten {
+    flex: 2;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 70px;
+}
+
+.isi-konten img{
+    width: 600px;
+    height: auto;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;   
+}
+
+.isi-konten p{
+    font-family: Charis SIL;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.isi-konten .opening{
+    text-indent: 30px;
+}
+
+.foto-konten img {
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+/* Gaya sidebar */
+.sidebar {
+    flex: 1;
+    background-color: #ffffff;
+    width: fit-content;
+    height: 200px;
+    float: right;
+    margin-top: 450px;
+    margin-right: 20px;
+}
+
+.search-box {
+    background-color: white;
+    padding: 5px;
+}
+
+.search-box p{
+    font-size: 20px;
+    font-family: Charis SIL;
+    border-bottom: 6px solid red;
+    width: 60px;
+    font-weight: 600;
+}
+
+.search-input {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.search-button {
+    background-color: red;
+    color: white;
+    cursor: pointer ;
+    border: none;
+    padding: 5px;
+    font-family: Charis SIL;
+    font-size: 20px;
+}
+
+.search-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.baca-juga p {
+    font-size: 20px;
+    font-family: Charis SIL;
+    border-bottom: 6px solid red;
+    width: 95px;
+    font-weight: 600;
+}
+
+.baca-juga a{
+    font-family: Charis SIL;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+    text-decoration:none;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.baca-juga a:hover{
+    color: rgb(119, 117, 117);
+    
+}
+
+
+
+.container-footer {
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sosmed a{
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.sosmed a:hover {
+    background-color: white;
+    color: black
+}
+
+.copyright {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-family: poppins;
+
+}
+
+
+.copyright a {
+    text-decoration: none;
+    color: blue;
+}

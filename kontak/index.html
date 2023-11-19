@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <title> Kontak  - KALACITRA </title>
+    <link rel="icon" type="image/icon" href="../img/logo kc png (2).png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charis+SIL&family=DM+Serif+Display&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/79fa34a98c.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=65585d96368e05001943ae0a&product=inline-share-buttons&source=platform" async="async"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="../index.html"> <img src="../img/LOGO KC bar WHITE.png"></a>
+        </div>
+        <ul class="nav-links">
+            <li> <a href="../index.html"> Beranda</a></li>
+            <li> <a href="../sejarah/index.html">Sejarah </a></li>
+            <li> <a href="../galeri/index.html"> Galeri</a></li>
+            <li> <a href="../materi fotografi/index.html"> Materi Fotografi</a></li>
+            <li> <a href="../kontak/index.html"> Kontak </a></li>
+        </ul>
+    </div>
+   
+    <div class="container">
+        <h3> Tetap Terhubung Dengan Kami </h3>
+        <p> Kalacitra terbuka dengan saran, masukan, dan pesan dari Anda <br> 
+        Silakan isi form dibawah, Kami ingin mendengarnya!</p>
+        <div class="kontak-box">
+            <div class="kiri">
+                <p class="judul-1"> Hubungi Kami </p>
+                <form>
+                    <label> Nama </label>
+                    <input type="text" placeholder="Budi Anton">
+                    <label> Instansi </label>
+                    <input type="text" placeholder="KMF Kalacitra">
+                    <label> Alamat Email </label>
+                    <input type="email" placeholder="budianton@yahoo.com">
+                    <label> No. Telepon </label>
+                    <input type="text" placeholder="+62 812 1209 2121">
+                    <label> Pesan/Saran/Masukan</label>
+                    <textarea cols="50" rows="10" placeholder="Tulis disini.."></textarea>
+                    <button onclick="myFunction()"> Kirim </button>
+                </form>
+                 <p id="demo"></p>
+            </div>
+            <div class="kanan">
+                <p class="judul"> KMF Kalacitra </p>
+                <table>
+                    <tr>
+                        <td><i class="fa-brands fa-instagram fa-lg"></i></td>
+                        <td>@kalacitra</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-youtube fa-lg"></i></td>
+                        <td> KMF Kalacitra</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-twitter fa-lg"></i></td>
+                        <td>@kmfkalacitra</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-tiktok fa-lg"></i></td>
+                        <td>kmfkalacitra</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-envelope fa-lg"></i></td>
+                        <td>ukm.kalacitra@uinjkt.ac.id</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-phone fa-lg"></i></td>
+                        <td> +62 896-3103-9010</td>
+                    </tr>
+                </table> <br>
+                <p class="sekretariat"> Kesekretariatan </p>
+                <p class="alamat">UIN Syarif Hidayatullah Student Center, Jl. Ir H. Juanda No.95, Cemp. Putih, Kec. Ciputat Tim., Kota Tangerang Selatan, Banten 15412</p>
+
+
+            </div>
+        </div>
+        
+    </div>
+
+        <footer>
+            <div class="container-footer">
+                <div class="sosmed">
+                    <a href="https://instagram.com/kalacitra" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a href="https://www.youtube.com/@kmfKalacitra3318" target="_blank"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                    <a href="https://www.tiktok.com/@kmfkalacitra" target="_blank"><i class="fa-brands fa-tiktok fa-lg"></i></a>
+                    <a href="https://twitter.com/kmfkalacitra" target="_blank"><i class="fa-brands fa-twitter fa-lg"></i></a> 
+                </div> 
+                </div> 
+                <div class="copyright">
+                    <p> Hak Cipta &copy; 2023 KMF Kalacitra | Desain Oleh: M.Azam Khoiruman | <a href="https://kalacitra.com " target="_blank"> Official Website Kalacitra </a> </p> 
+                </div> 
+             </div>
+        </footer>
+    </div>
+   </div>
+   <script>
+    function myFunction() {
+        var txt;
+        if (confirm("Pesan terkirim, Terima kasih atas masukan dan sarannya!")) {
+        txt = "You Pressed OK!";
+        } else {
+        txt = "You Pressed Cancel!";
+        }
+        document.getElementById("demo").innerHTML = txt;
+    }
+    </script>
+        <button type="button"
+        onclick="document,getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+
+    <p id="demo"></p>
+</body>
+</html>
